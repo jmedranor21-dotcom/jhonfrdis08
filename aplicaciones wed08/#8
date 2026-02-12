@@ -1,0 +1,8 @@
+def agregar_numero(lista, numero):
+    lista.append(numero)
+    return lista
+
+
+numeros = [1, 2, 3]
+agregar_numero(numeros, 4)
+print(numeros)

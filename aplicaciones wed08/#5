@@ -1,0 +1,6 @@
+def area_rectangulo(base, altura):
+    return base * altura
+
+
+resultado = area_rectangulo(5, 3)
+print("El área del rectángulo es:", resultado)

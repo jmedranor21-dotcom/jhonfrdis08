@@ -1,0 +1,8 @@
+def cuadrado_y_cubo(n):
+    cuadrado = n ** 2
+    cubo = n ** 3
+    return cuadrado, cubo
+
+num = 4
+resultado_cuadrado, resultado_cubo = cuadrado_y_cubo(num)
+print(f"El cuadrado de {num} es {resultado_cuadrado} y el cubo es {resultado_cubo}")
